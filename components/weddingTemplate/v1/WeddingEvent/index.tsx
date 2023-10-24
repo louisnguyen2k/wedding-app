@@ -29,7 +29,7 @@ export default function WeddingEvent() {
         </h2>
 
         <div className="w-full rounded-md">
-          <div className="animate-box rounded-t-md bg-black-1 px-6 pt-6 pb-3">
+          <div className="animate-box rounded-t-md bg-black-1 px-6 pb-3 pt-6">
             <div className="mb-5 border-b border-white border-opacity-50 pb-5 text-3xl text-white drop-shadow-[1px_1px_honeydew]">
               NHÀ GÁI
             </div>
@@ -40,8 +40,8 @@ export default function WeddingEvent() {
                   THỜI GIAN
                 </div>
                 <div className="text-sm font-semibold leading-relaxed text-dark-red">
-                  <p>17:00</p>
-                  <p>Thứ 5 ngày 21 tháng 9 năm 2023</p>
+                  <p>12:00</p>
+                  <p>Chủ nhật ngày 24 tháng 9 năm 2023</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ export default function WeddingEvent() {
                   <div className="text-sm font-semibold leading-relaxed text-dark-red">
                     {/* <p>NHÀ HÀNG ASEAN</p> */}
                     <p className="uppercase">
-                      số nhà 179, tổ 15, phường yên nghĩa, hà đông, hà nội
+                      Thôn Kim Bông, Xã Tân Xã, Huyện Thạch Thất, Hà Nội
                     </p>
                   </div>
                   {/* <p>Nhấn vào đây để tìm kiếm</p> */}
@@ -73,8 +73,8 @@ export default function WeddingEvent() {
                   THỜI GIAN
                 </div>
                 <div className="text-sm font-semibold leading-relaxed text-dark-red">
-                  <p>10:00</p>
-                  <p>Thứ 5 ngày 21 tháng 9 năm 2023</p>
+                  <p>12:00</p>
+                  <p>Chủ nhật ngày 24 tháng 9 năm 2023</p>
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ export default function WeddingEvent() {
                   <div className="text-sm font-semibold leading-relaxed text-dark-red">
                     {/* <p>ĐẠI HOÀNG SƠN OPERA WEDDING PLACE</p> */}
                     <p className="uppercase">
-                      Số nhà 38, tổ 22, phường phú lương, hà đông, hà nội
+                      Thôn cách chủ, xã bình yên, Huyện thạch thất, Hà Nội
                     </p>
                   </div>
                   {/* <p>Nhấn vào đây để tìm kiếm</p> */}
@@ -96,7 +96,7 @@ export default function WeddingEvent() {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-40" />
+      <div className="absolute bottom-0 left-0 right-0 top-0 bg-black opacity-40" />
     </div>
   );
 }

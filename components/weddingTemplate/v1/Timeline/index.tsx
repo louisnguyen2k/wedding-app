@@ -46,7 +46,7 @@ export default function Timeline() {
     },
   ];
   return (
-    <TimelineStyled className="container px-5 pt-32 pb-24 lg:px-10">
+    <TimelineStyled className="container px-5 pb-24 pt-32 lg:px-10">
       <div className="animate-box mb-24 text-center">
         <p className="mb-4 text-sm font-semibold leading-loose text-gray">
           WE LOVE EACH OTHER
@@ -56,7 +56,7 @@ export default function Timeline() {
         </h2>
         <p className="mx-auto max-w-[750px] text-base leading-normal text-gray lg:text-lg">
           {
-            "Once upon a time, Dien and Tho lived their own boring lives, they didn't know anything about each other"
+            "Once upon a time, Linh and Thuy lived their own boring lives, they didn't know anything about each other"
           }
         </p>
       </div>

@@ -4,7 +4,7 @@ import { ForewordStyled } from "./styled";
 
 export default function Foreword() {
   return (
-    <ForewordStyled className="container flex flex-col items-center justify-center py-16 px-5 md:px-10">
+    <ForewordStyled className="container flex flex-col items-center justify-center px-5 py-16 md:px-10">
       <div className="mb-20 w-full max-w-[750px]">
         <h2 className="animate-box mb-2 font-sacra text-[40px] font-bold leading-normal text-pink md:text-6xl">
           Dear all,
@@ -13,8 +13,8 @@ export default function Foreword() {
           Trân trọng thân mời,
         </p>
         <p className="animate-box mb-5 text-lg leading-loose text-gray">
-          Điền Nguyễn và Anh Thơ xin thân mời toàn thể anh chị em và các bạn tới
-          dự bữa tiệc thân mật mừng lễ thành hôn của chúng mình
+          Đình Linh và Phương Thùy xin thân mời toàn thể anh chị em và các bạn
+          tới dự bữa tiệc thân mật mừng lễ thành hôn của chúng mình
         </p>
         <p className="animate-box text-lg leading-loose text-gray">
           Đây cũng là dịp chúng mình gửi lời cảm ơn đến tất cả anh chị em và bạn
@@ -27,8 +27,8 @@ export default function Foreword() {
       <div className="relative w-full max-w-[1040px] lg:flex">
         <div className="animate-box md:flex lg:w-1/2">
           <div className="mb-4 pt-4 text-center md:mt-0 md:pr-6 md:text-right">
-            <div className="mt-2 mb-4 font-sacra text-3xl text-pink">
-              Dien Nguyen
+            <div className="mb-4 mt-2 font-sacra text-3xl text-pink">
+              Dinh Linh
             </div>
             <div className="leading-loose text-gray">
               It’s not that I can’t live without you, it’s just that I don’t
@@ -45,7 +45,7 @@ export default function Foreword() {
           />
         </div>
 
-        <i className="animate-box heart absolute top-[calc(50%-10px)] left-[calc(50%-24px)] z-10 h-12 w-12 animate-s-pulse rounded-full bg-white p-3 md:hidden lg:left-[calc(50%-30px)] lg:top-[calc(50%-30px)] lg:block lg:h-16 lg:w-16 lg:p-5" />
+        <i className="animate-box heart absolute left-[calc(50%-24px)] top-[calc(50%-10px)] z-10 h-12 w-12 animate-s-pulse rounded-full bg-white p-3 md:hidden lg:left-[calc(50%-30px)] lg:top-[calc(50%-30px)] lg:block lg:h-16 lg:w-16 lg:p-5" />
 
         <div className="animate-box md:flex lg:w-1/2">
           <Image
@@ -57,8 +57,8 @@ export default function Foreword() {
           />
 
           <div className="mb-4 pt-4 text-center md:mt-0 md:pl-6 md:text-left">
-            <div className="mt-2 mb-4 font-sacra text-3xl text-pink">
-              Anh Tho
+            <div className="mb-4 mt-2 font-sacra text-3xl text-pink">
+              Phuong Thuy
             </div>
             <div className="leading-loose text-gray">
               {"True love isn't found. It's built."}

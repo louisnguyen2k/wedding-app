@@ -30,23 +30,23 @@ export default function Banner() {
       }}
       ref={bannerRef}
     >
-      <div className="absolute top-0 bottom-0 left-0 right-0 z-10 bg-black opacity-50"></div>
+      <div className="absolute bottom-0 left-0 right-0 top-0 z-10 bg-black opacity-50"></div>
 
-      <div className="absolute top-[20%] bottom-0 left-0 right-0 z-20 text-center text-white md:top-[18%]">
+      <div className="absolute bottom-0 left-0 right-0 top-[20%] z-20 text-center text-white md:top-[18%]">
         <div className="animate-box">
           <h1 className="font-sacra text-4xl leading-tight md:text-6xl md:leading-normal lg:text-8xl">
-            Anh Tho
+            Dinh Linh
           </h1>
           <h1 className="font-sacra text-2xl leading-tight md:text-6xl md:leading-normal lg:text-8xl">
             &
           </h1>
           <h1 className="font-sacra text-4xl leading-tight md:text-6xl md:leading-normal lg:text-8xl">
-            Dien Nguyen
+            Phuong Thuy
           </h1>
           <p className="mb-4 mt-3 text-sm md:mb-6 md:text-xl">
             We Are Getting Married In
           </p>
-          <Countdown targetDate="2023-09-21T00:00:00" />
+          <Countdown targetDate="2023-09-24T12:00:00" />
         </div>
       </div>
 

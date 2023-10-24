@@ -7,6 +7,7 @@ import Timeline from "@/components/weddingTemplate/v1/Timeline";
 import WeddingEvent from "@/components/weddingTemplate/v1/WeddingEvent";
 import Footer from "@/components/weddingTemplate/v1/Footer";
 import Head from "next/head";
+import FloatingMusic from "@/components/audio";
 // import AttendForm from "@/components/weddingTemplate/v1/AttendForm";
 
 export default async function Home() {
@@ -15,7 +16,7 @@ export default async function Home() {
       <head>
         <meta
           property="og:image"
-          content="https://anhtho-diennguyen.com/assets/wedding_img/37.jpg"
+          content="https://linh-thuy.happy-wd.com/assets/wedding_img/37.jpg"
         />
         <meta property="og:image:height" content="600" />
         <meta property="og:image:width" content="800" />
@@ -30,6 +31,7 @@ export default async function Home() {
       <BankAccount />
       {/* <AttendForm /> */}
       <Footer />
+      {/* <FloatingMusic /> */}
     </div>
   );
 }
