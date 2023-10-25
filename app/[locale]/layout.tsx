@@ -10,10 +10,10 @@ import { Metadata } from "next";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "Đám cưới An Điền  - Anh Thơ",
+  title: "Đám cưới Văn Tới  - Nguyễn Nhất",
   // description:
   //   "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-  metadataBase: new URL("https://anhtho-diennguyen.com"),
+  metadataBase: new URL("https://linh-thuy.happy-wd.com"),
   themeColor: "#FFF",
 };
 

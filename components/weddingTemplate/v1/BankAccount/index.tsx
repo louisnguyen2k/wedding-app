@@ -1,3 +1,4 @@
+import configs from "configs";
 import Image from "next/image";
 
 export default function BankAccount() {
@@ -9,7 +10,7 @@ export default function BankAccount() {
         fill
         style={{ objectFit: "cover" }}
       />
-      <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-40" />
+      <div className="absolute bottom-0 left-0 right-0 top-0 bg-black opacity-40" />
 
       <div className="absolute flex h-full w-full max-w-[1140px] flex-col items-center justify-center px-5 text-center">
         <div className="animate-box px-2 md:mb-10">
@@ -23,12 +24,14 @@ export default function BankAccount() {
 
         <div className="flex w-full flex-col items-center md:flex-row md:justify-around">
           <div className="animate-box mt-8 flex flex-col items-center md:mt-0 md:text-right">
-            <div className="mb-5 font-sacra text-3xl text-pink">Le Anh Tho</div>
+            <div className="mb-5 font-sacra text-3xl text-pink">
+              {configs.husbandBankName}
+            </div>
             <div className="mb-5 text-xl font-semibold text-gray-c">
-              19038809919011
+              {configs.husbandBankNumber}
             </div>
             <Image
-              src="/assets/wedding_img/wife_qr.png"
+              src="/assets/images/husband_qr.png"
               alt=""
               width={200}
               height={200}
@@ -38,13 +41,13 @@ export default function BankAccount() {
 
           <div className="animate-box mt-8 flex flex-col items-center md:mt-0 md:text-left">
             <div className="mb-5 font-sacra text-3xl text-pink">
-              Nguyen Kim An Dien
+              {configs.wifeBankName}
             </div>
             <div className="mb-5 text-xl font-semibold text-gray-c">
-              9035643703333
+              {configs.wifeBankNumber}
             </div>
             <Image
-              src="/assets/wedding_img/husband_qr.png"
+              src="/assets/images/husband_qr.png"
               alt=""
               width={200}
               height={200}
