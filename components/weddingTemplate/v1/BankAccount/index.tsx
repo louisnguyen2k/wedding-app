@@ -1,3 +1,4 @@
+import configs from "configs";
 import Image from "next/image";
 
 export default function BankAccount() {
@@ -24,13 +25,13 @@ export default function BankAccount() {
         <div className="flex w-full flex-col items-center md:flex-row md:justify-around">
           <div className="animate-box mt-8 flex flex-col items-center md:mt-0 md:text-right">
             <div className="mb-5 font-sacra text-3xl text-pink">
-              Nguyen Dinh Linh
+              {configs.husbandBankName}
             </div>
             <div className="mb-5 text-xl font-semibold text-gray-c">
-              6930188888898
+              {configs.husbandBankNumber}
             </div>
             <Image
-              src="/assets/wedding_img/husband_qr.png"
+              src="/assets/images/husband_qr.png"
               alt=""
               width={200}
               height={200}
@@ -38,21 +39,21 @@ export default function BankAccount() {
             />
           </div>
 
-          {/* <div className="animate-box mt-8 flex flex-col items-center md:mt-0 md:text-left">
+          <div className="animate-box mt-8 flex flex-col items-center md:mt-0 md:text-left">
             <div className="mb-5 font-sacra text-3xl text-pink">
-              Nguyen Kim An Dien
+              {configs.wifeBankName}
             </div>
             <div className="mb-5 text-xl font-semibold text-gray-c">
-              9035643703333
+              {configs.wifeBankNumber}
             </div>
             <Image
-              src="/assets/wedding_img/husband_qr.png"
+              src="/assets/images/husband_qr.png"
               alt=""
               width={200}
-              heght={200}
+              height={200}
               className="h-[200px] rounded"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

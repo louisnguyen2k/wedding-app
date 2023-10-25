@@ -16,7 +16,7 @@ export default async function Home() {
       <head>
         <meta
           property="og:image"
-          content="https://linh-thuy.happy-wd.com/assets/wedding_img/37.jpg"
+          content="https://linh-thuy.happy-wd.com/assets/images/img_7"
         />
         <meta property="og:image:height" content="600" />
         <meta property="og:image:width" content="800" />

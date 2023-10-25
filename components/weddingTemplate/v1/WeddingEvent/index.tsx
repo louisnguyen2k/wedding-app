@@ -1,4 +1,5 @@
 import Image from "next/image";
+import configs from "configs";
 
 export default function WeddingEvent() {
   return (
@@ -15,7 +16,7 @@ export default function WeddingEvent() {
 
         <div className="relative hidden h-full lg:block lg:w-[45%]">
           <Image
-            src="/assets/wedding_img/37.jpg"
+            src="/assets/images/img_7.jpg"
             alt=""
             fill
             style={{ objectFit: "cover" }}
@@ -41,7 +42,7 @@ export default function WeddingEvent() {
                 </div>
                 <div className="text-sm font-semibold leading-relaxed text-dark-red">
                   <p>12:00</p>
-                  <p>Chủ nhật ngày 24 tháng 9 năm 2023</p>
+                  <p>{configs.txtTimeWedding}</p>
                 </div>
               </div>
 
@@ -52,9 +53,7 @@ export default function WeddingEvent() {
                 <div>
                   <div className="text-sm font-semibold leading-relaxed text-dark-red">
                     {/* <p>NHÀ HÀNG ASEAN</p> */}
-                    <p className="uppercase">
-                      Thôn Kim Bông, Xã Tân Xã, Huyện Thạch Thất, Hà Nội
-                    </p>
+                    <p className="uppercase">{configs.address_wife}</p>
                   </div>
                   {/* <p>Nhấn vào đây để tìm kiếm</p> */}
                 </div>
@@ -74,7 +73,7 @@ export default function WeddingEvent() {
                 </div>
                 <div className="text-sm font-semibold leading-relaxed text-dark-red">
                   <p>12:00</p>
-                  <p>Chủ nhật ngày 24 tháng 9 năm 2023</p>
+                  <p>{configs.txtTimeWedding}</p>
                 </div>
               </div>
 
@@ -85,9 +84,7 @@ export default function WeddingEvent() {
                 <div>
                   <div className="text-sm font-semibold leading-relaxed text-dark-red">
                     {/* <p>ĐẠI HOÀNG SƠN OPERA WEDDING PLACE</p> */}
-                    <p className="uppercase">
-                      Thôn cách chủ, xã bình yên, Huyện thạch thất, Hà Nội
-                    </p>
+                    <p className="uppercase">{configs.address_husband}</p>
                   </div>
                   {/* <p>Nhấn vào đây để tìm kiếm</p> */}
                 </div>

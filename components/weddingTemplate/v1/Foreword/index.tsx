@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { ForewordStyled } from "./styled";
+import configs from "configs";
 
 export default function Foreword() {
   return (
@@ -13,8 +14,9 @@ export default function Foreword() {
           Trân trọng thân mời,
         </p>
         <p className="animate-box mb-5 text-lg leading-loose text-gray">
-          Đình Linh và Phương Thùy xin thân mời toàn thể anh chị em và các bạn
-          tới dự bữa tiệc thân mật mừng lễ thành hôn của chúng mình
+          {configs.husbandName} và {configs.wifeName} xin thân mời toàn thể anh
+          chị em và các bạn tới dự bữa tiệc thân mật mừng lễ thành hôn của chúng
+          mình
         </p>
         <p className="animate-box text-lg leading-loose text-gray">
           Đây cũng là dịp chúng mình gửi lời cảm ơn đến tất cả anh chị em và bạn
@@ -28,7 +30,7 @@ export default function Foreword() {
         <div className="animate-box md:flex lg:w-1/2">
           <div className="mb-4 pt-4 text-center md:mt-0 md:pr-6 md:text-right">
             <div className="mb-4 mt-2 font-sacra text-3xl text-pink">
-              Dinh Linh
+              {configs.husbandName}
             </div>
             <div className="leading-loose text-gray">
               It’s not that I can’t live without you, it’s just that I don’t
@@ -37,7 +39,7 @@ export default function Foreword() {
           </div>
 
           <Image
-            src="/assets/wedding_img/husband.png"
+            src="/assets/images/husband.png"
             alt=""
             height={120}
             width={120}
@@ -49,7 +51,7 @@ export default function Foreword() {
 
         <div className="animate-box md:flex lg:w-1/2">
           <Image
-            src="/assets/wedding_img/wife.png"
+            src="/assets/images/wife.png"
             alt=""
             height={120}
             width={120}
@@ -58,7 +60,7 @@ export default function Foreword() {
 
           <div className="mb-4 pt-4 text-center md:mt-0 md:pl-6 md:text-left">
             <div className="mb-4 mt-2 font-sacra text-3xl text-pink">
-              Phuong Thuy
+              {configs.wifeName}
             </div>
             <div className="leading-loose text-gray">
               {"True love isn't found. It's built."}
